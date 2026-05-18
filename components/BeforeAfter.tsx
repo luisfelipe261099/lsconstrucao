@@ -61,7 +61,7 @@ export default function BeforeAfter() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/images/after-real.jpg')",
+              backgroundImage: "url('/images/depois.png')",
             }}
           />
           <div className="absolute right-6 top-6 rounded-full bg-ink/70 px-3 py-1 text-[10px] tracking-[0.3em] uppercase text-gold backdrop-blur">
@@ -72,7 +72,7 @@ export default function BeforeAfter() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/images/before-real.jpg')",
+              backgroundImage: "url('/images/antes.png')",
               clipPath: `inset(0 ${100 - pos}% 0 0)`,
               filter: 'grayscale(0.8) contrast(0.92)',
             }}
