@@ -50,7 +50,7 @@ export default function Hero() {
         className="absolute inset-0 z-0"
       >
         <Image
-          src="/images/1.jpeg"
+          src="/images/1.PNG"
           alt="LS Construções - Background"
           fill
           priority
