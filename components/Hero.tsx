@@ -47,22 +47,21 @@ export default function Hero() {
     >
       <motion.div
         style={{ y: yBg, scale }}
-        className="absolute inset-0 -z-10"
+        className="absolute inset-0 z-0"
       >
         <Image
-          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=100"
-          alt="Luxury Architecture"
+          src="/images/1.jpeg"
+          alt="LS Construções - Background"
           fill
           priority
-          className="object-cover object-center brightness-75 contrast-110"
+          className="object-cover object-center"
           quality={95}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/55 to-ink/10" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(220,184,73,0.18),rgba(7,9,11,0.5)_70%)]" />
-        <div className="absolute inset-0 shadow-[inset_0_0_180px_rgba(0,0,0,0.9)]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/75 via-ink/35 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-ink/45 via-transparent to-ink/80" />
       </motion.div>
 
-      <div className="pointer-events-none absolute inset-0 -z-10">
+      <div className="pointer-events-none absolute inset-0 z-[1]">
         {particles.map((p, i) => (
           <motion.span
             key={i}
@@ -182,7 +181,7 @@ export default function Hero() {
         Assistir apresentação
       </a>
 
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_54%,rgba(0,0,0,0.62)_100%)]" />
+      <div className="pointer-events-none absolute inset-0 z-[2] bg-[radial-gradient(ellipse_at_center,transparent_54%,rgba(0,0,0,0.62)_100%)]" />
     </section>
   );
 }
