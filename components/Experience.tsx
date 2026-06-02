@@ -36,7 +36,7 @@ export default function Experience() {
           <div className="relative overflow-hidden border border-gold/20">
             <Image
               src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=1800&q=90"
-              alt="Sala sofisticada"
+              alt="Sala sofisticada de projeto residencial de alto padrão em Curitiba"
               width={1600}
               height={900}
               className="h-auto w-full object-cover"

@@ -7,12 +7,13 @@ export default function Footer() {
         <div>
           <Image
             src="/images/logo.svg"
-            alt="LS Construções"
+            alt="LS Construções e Reformas — Curitiba PR"
             width={88}
             height={88}
             className="h-20 w-20 object-contain"
           />
           <p className="mt-4 max-w-xs text-sm text-ice/70">
+            Construção e reforma de alto padrão em Curitiba e região.
             Qualidade que se vê, compromisso que se sente.
           </p>
           <div className="mt-4 flex items-center gap-3 text-gold">
@@ -30,6 +31,7 @@ export default function Footer() {
             <li><a href="#servicos" className="transition hover:text-gold">Serviços</a></li>
             <li><a href="#galeria" className="transition hover:text-gold">Projetos</a></li>
             <li><a href="#depoimentos" className="transition hover:text-gold">Depoimentos</a></li>
+            <li><a href="#faq" className="transition hover:text-gold">Perguntas frequentes</a></li>
             <li><a href="#contato" className="transition hover:text-gold">Contato</a></li>
           </ul>
         </div>
@@ -51,7 +53,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-ice/75">
             <li>(41) 99539-0806</li>
             <li>contato@lsconstrucoes.com.br</li>
-            <li>Curitiba - PR</li>
+            <li>Curitiba e Região Metropolitana - PR</li>
             <li>Responsável: Leandro Selusniak</li>
           </ul>
           <a
@@ -65,7 +67,7 @@ export default function Footer() {
 
       <div className="border-t border-gold/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-4 text-xs text-ice/50 sm:flex-row sm:items-center sm:justify-between lg:px-10">
-          <span>© 2024 LS Construções & Reformas. Todos os direitos reservados.</span>
+          <span>© 2026 LS Construções & Reformas — Curitiba/PR. Todos os direitos reservados.</span>
           <span>Desenvolvido com amor por LS Digital</span>
         </div>
       </div>

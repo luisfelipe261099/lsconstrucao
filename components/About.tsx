@@ -45,9 +45,11 @@ export default function About() {
             transition={{ duration: 0.9, delay: 0.15 }}
             className="mt-6 max-w-xl text-ice/70 leading-relaxed"
           >
-            A LS Construções & Reformas transforma ideias em ambientes extraordinários.
-            Atuamos com planejamento, precisão e materiais de alto padrão para
-            entregar muito mais que obras, entregamos experiências.
+            A LS Construções & Reformas é referência em construção e reforma de
+            alto padrão em <strong className="font-semibold text-ice/90">Curitiba</strong>,
+            região metropolitana, Campo Largo e Campo Magro. Atuamos com planejamento,
+            precisão e materiais de alto padrão para entregar muito mais que obras,
+            entregamos experiências.
           </motion.p>
 
           <motion.a

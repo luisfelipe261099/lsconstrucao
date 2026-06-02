@@ -51,7 +51,7 @@ export default function Hero() {
       >
         <Image
           src="/images/1.PNG"
-          alt="LS Construções - Background"
+          alt="Obra de alto padrão da LS Construções e Reformas em Curitiba"
           fill
           priority
           className="object-cover object-center"
@@ -101,7 +101,7 @@ export default function Hero() {
           custom={0}
           className="mb-7 inline-flex items-center gap-3 text-[11px] font-semibold tracking-[0.24em] uppercase text-gold"
         >
-          Bem-vindo a LS Construções & Reformas
+          Construtora e Reformas de Alto Padrão · Curitiba e Região
         </motion.div>
 
         <motion.h1
@@ -122,7 +122,8 @@ export default function Hero() {
           custom={2}
           className="mt-6 max-w-lg text-base text-ice/70"
         >
-          Projetos sofisticados com acabamento impecável.
+          Construção e reforma de alto padrão em <strong className="font-semibold text-ice/90">Curitiba</strong> e
+          região metropolitana. Projetos sofisticados com acabamento impecável.
         </motion.p>
 
         <motion.div

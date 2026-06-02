@@ -10,7 +10,7 @@ export default function CTA() {
         <div className="relative min-h-[280px] overflow-hidden">
           <Image
             src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1800&q=90"
-            alt="Casa alto padrão"
+            alt="Casa de alto padrão construída pela LS Construções em Curitiba"
             fill
             className="object-cover object-center brightness-75"
             quality={90}

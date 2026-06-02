@@ -4,6 +4,7 @@ import Services from '@/components/Services';
 import Experience from '@/components/Experience';
 import BeforeAfter from '@/components/BeforeAfter';
 import Testimonials from '@/components/Testimonials';
+import FAQ from '@/components/FAQ';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 
@@ -16,6 +17,7 @@ export default function Page() {
       <Experience />
       <BeforeAfter />
       <Testimonials />
+      <FAQ />
       <CTA />
       <Footer />
     </main>
