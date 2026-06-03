@@ -13,7 +13,7 @@ const montserrat = Montserrat({
   display: 'swap',
 });
 
-const SITE_URL = 'https://lsconstrucoes.com.br';
+const SITE_URL = 'https://lsconstrucao.com.br';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
